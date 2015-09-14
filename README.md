@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Jekyll-Bootstrap
 
 The quickest way to start and publish your Jekyll powered blog. 100% compatible with GitHub pages
@@ -77,8 +76,3 @@ The documentation website at <http://jekyllbootstrap.com> is maintained at https
 ## License
 
 [MIT](http://opensource.org/licenses/MIT)
-=======
-# biokdd.github.io
-
-[biokdd.github.io](http://biokdd.github.io)
->>>>>>> 59f6cc8da76522bc119faff6c3b5eeae36c5b913
