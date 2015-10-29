@@ -6,33 +6,39 @@ group: navigation
 {% include JB/setup %}
 
 <meta name="viewport" content="width=device-width" />
+<!-- jQuery -->
+<script src="{{ BASE_PATH }}/assets/js/jquery-1.11.3.min.js"></script>
 
 <div class="container">
-	<a href="{{ BASE_PATH }}/members/archive"><button type="button" class="btn btn-primary">See Former Members</button></a>
+
+	<button class="show-all-button btn btn-primary">Show All</button>
+	<button class="current-member-button btn btn-primary">Show Current Members</button>
+	<button class="former-member-button btn btn-primary">Show Former Members</button>
+	
 </br>
 	<div class="row">
-		<div class="col-lg-4 col-md-4 col-xs-6 thumb">
+		<div class="col-lg-4 col-md-4 col-xs-6 thumb current-member">
 			<label for="chen">Dr. Jake Chen</label>
 			<a class="thumbnail" href="https://www.linkedin.com/in/jakechen">
 				<img class="img-responsive" src="{{ BASE_PATH }}/assets/images/members/jake-chen.jpg" id="chen" alt="Dr. Jake Chen">
 			</a>
 		</div>
 
-		<div class="col-lg-4 col-md-4 col-xs-6 thumb">
+		<div class="col-lg-4 col-md-4 col-xs-6 thumb current-member">
 			<label for="yue">Zongliang Yue</label>
 			<a class="thumbnail" href="https://www.linkedin.com/pub/zongliang-yue/90/606/52a">
 				<img class="img-responsive" src="{{ BASE_PATH }}/assets/images/members/yue.jpg" id="yue" alt="Zongliang Yue">
 			</a>
 		</div>
 
-		<div class="col-lg-4 col-md-4 col-xs-6 thumb">
+		<div class="col-lg-4 col-md-4 col-xs-6 thumb current-member">
 			<label for="madhura">Madhura Kshirsagar</label>
 			<a class="thumbnail" href="https://www.linkedin.com/pub/madhura-kshirsagar/13/957/95b">
 				<img class="img-responsive" src="{{ BASE_PATH }}/assets/images/members/madhura.jpg" id="madhura" alt="Madhura Kshirsagar">
 			</a>
 		</div>
 
-		<div class="col-lg-4 col-md-4 col-xs-6 thumb">
+		<div class="col-lg-4 col-md-4 col-xs-6 thumb current-member">
 			<label for="neylon">Michael Neylon</label>
 			<a class="thumbnail" href="https://www.linkedin.com/in/michaelneylon">
 				<img class="img-responsive" src="{{ BASE_PATH }}/assets/images/members/neylon.jpg" id="neylon" alt="Michael Neylon">
@@ -40,35 +46,65 @@ group: navigation
 		</div>
 
 
-		<div class="col-lg-4 col-md-4 col-xs-6 thumb">
+		<div class="col-lg-4 col-md-4 col-xs-6 thumb current-member">
 			<label for="bhattrai">Anurag Bhattrai</label>
 			<a class="thumbnail" href="https://www.linkedin.com/pub/anurag-bhattrai/31/a26/97">
 				<img class="img-responsive" src="{{ BASE_PATH }}/assets/images/members/bhattrai.jpg" id="bhattrai" alt="Anurag Bhattrai">
 			</a>
 		</div>
 
-		<div class="col-lg-4 col-md-4 col-xs-6 thumb">
+		<div class="col-lg-4 col-md-4 col-xs-6 thumb current-member">
 			<label for="arora">Itika Arora</label>
 			<a class="thumbnail" href="https://www.linkedin.com/pub/itika-arora/52/2ba/508">
 				<img class="img-responsive" src="{{ BASE_PATH }}/assets/images/members/arora.jpg" id="bhattrai" alt="Itika Arora">
 			</a>
 		</div>
 
-		<div class="col-lg-4 col-md-4 col-xs-6 thumb">
+		<div class="col-lg-4 col-md-4 col-xs-6 thumb current-member">
 			<label for="ibrahim">Sara Ibrahim</label>
 			<a class="thumbnail" href="https://www.linkedin.com/pub/sara-ibrahim/36/96/a7b">
 				<img class="img-responsive" src="{{ BASE_PATH }}/assets/images/members/ibrahim.jpg" id="ibrahim" alt="Sara Ibrahim">
 			</a>
 		</div>
 
-		<div class="col-lg-4 col-md-4 col-xs-6 thumb">
+		<div class="col-lg-4 col-md-4 col-xs-6 thumb current-member">
 			<label for="thanh">Thanh Minh Nguyen</label>
 			<a class="thumbnail" href="#">
 				<img class="img-responsive" src="{{ BASE_PATH }}/assets/images/members/thanh.jpg" id="thanh" alt="Thanh Minh Nguyen">
 			</a>
 		</div>
 
+		<div class="col-lg-4 col-md-4 col-xs-6 thumb current-member">
+			<label for="nafisa">Nafisa Bulsara</label>
+			<a class="thumbnail" href="https://www.linkedin.com/pub/nafisa-bulsara/37/b48/a48">
+				<img class="img-responsive" src="{{ BASE_PATH }}/assets/images/members/nafisa.jpg" id="nafisa" alt="Nafisa Bulsara">
+			</a>
+		</div>
 
+		<div hidden class="col-lg-4 col-md-4 col-xs-6 thumb former-member">
+			<label for="jain">Ashish Jain</label>
+			<a class="thumbnail" href="https://www.linkedin.com/pub/ashish-jain/11/b27/395">
+				<img class="img-responsive" src="{{ BASE_PATH }}/assets/images/members/archive/jain.jpg" id="jain" alt="Ashish Jain">
+			</a>
+		</div>
+
+		<div hidden class="col-lg-4 col-md-4 col-xs-6 thumb former-member">
+			<label for="sandeep">Sandeep Shantharam</label>
+			<a class="thumbnail" href="https://www.linkedin.com/in/machbio">
+				<img class="img-responsive" src="{{ BASE_PATH }}/assets/images/members/archive/sandeep.jpg" id="sandeep" alt="Sandeep Shantharam">
+			</a>
+		</div>
+
+		<div hidden class="col-lg-4 col-md-4 col-xs-6 thumb former-member">
+			<label for="yiting">Yiting Hao</label>
+			<a class="thumbnail" href="https://www.linkedin.com/in/yitinghao">
+				<img class="img-responsive" src="{{ BASE_PATH }}/assets/images/members/archive/yiting.jpg" id="yiting" alt="Yiting Hao">
+			</a>
+		</div>
+
+		<div class="col-lg-4 col-md-4 col-xs-6 thumb">
+			<h4>More to come...</h4>
+		</div>
 
 	</div>
 
@@ -93,3 +129,19 @@ group: navigation
 	}
 }
 </style>
+<script>
+$(document).ready(function(){
+	$(".show-all-button").click(function(){
+        $("div").show();
+    });
+    $(".former-member-button").click(function(){
+        $(".former-member").show();
+        $(".current-member").hide();
+    });
+    $(".current-member-button").click(function(){
+        $(".current-member").show();
+        $(".former-member").hide();
+    });
+    
+});
+</script>
