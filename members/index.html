@@ -5,6 +5,8 @@ group: navigation
 ---
 {% include JB/setup %}
 
+<meta name="viewport" content="width=device-width" />
+
 <div class="container">
 	<a href="{{ BASE_PATH }}/members/archive"><button type="button" class="btn btn-primary">See Former Members</button></a>
 </br>
@@ -71,3 +73,23 @@ group: navigation
 	</div>
 
 </div>
+<style>
+@media screen and (max-width:768px) {
+	.thumbnail{
+	    height: 150px;
+	    overflow: auto;
+	}
+	.thumbnail img{
+	height: 100%;
+	}
+}
+@media screen and (min-width:768px) {
+	.thumbnail{
+	    height: 300px;
+	    overflow: auto;
+	}
+	.thumbnail img{
+	height: 100%;
+	}
+}
+</style>
