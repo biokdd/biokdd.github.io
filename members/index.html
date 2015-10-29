@@ -18,7 +18,7 @@ group: navigation
 </br>
 	<div class="row">
 		<div class="col-lg-4 col-md-4 col-xs-6 thumb current-member">
-			<label for="chen">Dr. Jake Chen</label>
+			<label for="chen">Professor Jake Chen</label>
 			<a class="thumbnail" href="https://www.linkedin.com/in/jakechen">
 				<img class="img-responsive" src="{{ BASE_PATH }}/assets/images/members/jake-chen.jpg" id="chen" alt="Dr. Jake Chen">
 			</a>
@@ -132,7 +132,8 @@ group: navigation
 <script>
 $(document).ready(function(){
 	$(".show-all-button").click(function(){
-        $("div").show();
+        $(".former-member").show();
+        $(".current-member").show();
     });
     $(".former-member-button").click(function(){
         $(".former-member").show();
