@@ -30,12 +30,12 @@ tagline:
 
     <div class="col-md-3">
       <h3><strong>Meet the Team</strong></h3>
-      <p>Meet the team <i class="fa fa-arrow-right"></i><a href="{{ BASE_PATH }}/members"><button type="button" class="btn btn-default"><i class="fa fa-users"></i></button></a></p>
+      <p>Meet the team <i class="fa fa-arrow-right"></i><a href="{{ BASE_PATH }}/pages/members"><button type="button" class="btn btn-default"><i class="fa fa-users"></i></button></a></p>
     </div><!-- /.tile -->
 
     <div class="col-md-3">
       <h3><strong>Resources</strong></h3>
-      <p class="post-excerpt">Tools and data services from our lab <i class="fa fa-arrow-right"></i><a href="{{ BASE_PATH }}/resources"><button type="button" class="btn btn-default"><i class="fa fa-code"></i></button></a></p>
+      <p class="post-excerpt">Tools and data services from our lab <i class="fa fa-arrow-right"></i><a href="{{ BASE_PATH }}/pages/resources"><button type="button" class="btn btn-default"><i class="fa fa-code"></i></button></a></p>
     </div><!-- /.tile -->
 
     <div class="col-md-3">
